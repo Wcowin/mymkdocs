@@ -22,8 +22,3 @@ theme:
     text: Roboto
   features:
     - navigation.instant
-extra:
-  social:
-    - icon: fontawesome/brands/twitter 
-      link: 
-    
