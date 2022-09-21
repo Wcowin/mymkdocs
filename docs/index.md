@@ -3,8 +3,6 @@
 <font face="宋体" color=orange size=8>永远相信美好的事情即将发生</font>
 
 
-
-![my] (file:///Users/wangkewen/Pictures/%E5%9B%BE%E5%BA%93.photoslibrary/private/com.apple.Photos/ExternalEditSessions/176954E3-2DB9-42BE-AA39-1D77328EF6F3/IMG_3081.jpeg "cool")
   
    
 
