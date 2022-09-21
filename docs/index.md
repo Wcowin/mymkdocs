@@ -5,6 +5,8 @@
 ![img](img/my.jpeg "wow")
 
 
+
+
   
    
 
@@ -26,4 +28,4 @@
  
   
   
-* 找到我 &#x1F4A1;→右边是链接[GitHub](https://github.com/Wcowin"GitHub")
+* 找到我 &#x1F4A1;→[GitHub](https://github.com/Wcowin"GitHub")
