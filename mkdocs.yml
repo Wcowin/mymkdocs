@@ -57,6 +57,8 @@ extra:
       link: https://twitter.com/squidfunk
     - icon: fontawesome/brands/github
       link: https://github.com/Wcowin
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/1407028951?spm_id_from=333.1007.0.0
     - icon: fontawesome/solid/paper-plane
       link: mailto:<1135801806@qq.com> #联系
 plugins:
