@@ -1,6 +1,17 @@
-site_name: My Docs
+site_name: Wcowin的个人网站
 theme:
   name: material
+  icon:
+    tag:
+      <identifier>: octicons/tag-16
+  features:
+    - navigation.instant
+    - header.autohide  #自动隐藏
+    - announce.dismiss
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+
 
   palette:
 
@@ -8,17 +19,47 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-sunny
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+        icon: material/weather-night
+        name: Switch to light mode    ##material/brightness-7+material/brightness-4
 
   font:
     text: Roboto
   features:
     - navigation.instant
+
+nav: 
+  - 主页: index.md
+  - 博客: wkw.md
+  - 旅行: travel.md
+  - 关于我: about.md
+  
+favicon: /docs/img/11.ico
+markdown_extensions:
+  - attr_list
+  - md_in_html
+plugins:
+  - glightbox
+copyright: Copyright &copy; 2022王科文
+
+extra:
+  version:
+    provider: 1.0
+  generator: false
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/github
+      link: https://github.com/Wcowin
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<1135801806@qq.com> #联系
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md

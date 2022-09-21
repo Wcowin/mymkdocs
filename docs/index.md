@@ -1,12 +1,29 @@
-# Welcome to MkDocs
+# Welcome to 王科文的个人网站  &#x1F4C6;
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+<font face="宋体" color=orange size=8>永远相信美好的事情即将发生</font>
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+![图片](/img/my.jpeg)
+  
+   
+
+
+
+ 
+  
+    
+     
+      
+       
+        
+         
+          
+           
+            
+  
+  
+ 
+  
+  
+* 找到我 &#x1F4A1;→右边是链接[GitHub](https://github.com/Wcowin"GitHub")
