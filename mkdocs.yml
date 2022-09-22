@@ -54,7 +54,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/squidfunk
+      link: https://twitter.com/wcowin_
     - icon: fontawesome/brands/github
       link: https://github.com/Wcowin
     - icon: fontawesome/brands/bilibili
