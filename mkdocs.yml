@@ -11,6 +11,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.top
 
 
   palette:
@@ -36,7 +37,9 @@ theme:
 
 nav: 
   - 主页: index.md
-  - 博客: wkw.md
+  - 博客:
+    - Python: blog/index.md
+    - C语言: blog/c.md
   - 旅行: travel.md
   - 关于我: about.md
   
@@ -47,6 +50,7 @@ markdown_extensions:
 plugins:
   - glightbox
 copyright: Copyright &copy; 2022王科文
+  
 
 extra:
   version:
