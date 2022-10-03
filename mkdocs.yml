@@ -1,4 +1,5 @@
 site_name: Wcowin的个人网站
+site_url: https://wcowin.github.io/mymkdocs/
 theme:
   name: material
   icon:
@@ -6,12 +7,17 @@ theme:
       <identifier>: octicons/tag-16
   features:
     - navigation.instant
-    - header.autohide  #自动隐藏
-    - announce.dismiss
-    - navigation.tracking
-    - navigation.tabs
+    #- header.autohide  #自动隐藏
+    - announce.dismiss #忘了
+    - navigation.tracking #也忘了
+    - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
     - navigation.tabs.sticky
-    - navigation.top
+    - navigation.sections
+    - navigation.top # 返回顶部的按钮 在上滑时出现
+    - search.suggest # 搜索输入一些字母时推荐补全整个单词
+    - search.highlight # 搜索出的文章关键词加入高亮
+    - navigation.expand
+  language: zh # 一些提示性的文字会变成中文
 
 
   palette:
@@ -40,8 +46,10 @@ nav:
   - 博客:
     - Python: blog/index.md
     - C语言: blog/c.md
-  - 旅行: travel.md
-  - 关于我: about.md
+  - 旅行: 
+    - 重庆: trip/travel.md
+  - 关于:
+    - 个人履历: about/geren.md
   
 favicon: /docs/img/11.ico
 markdown_extensions:
@@ -49,13 +57,13 @@ markdown_extensions:
   - md_in_html
 plugins:
   - glightbox
-copyright: Copyright &copy; 2022王科文
+copyright: Copyright &copy; 2022王科文 # 左下角的版权声明
   
 
 extra:
   version:
     provider: 1.0
-  generator: false
+  generator: false  #删除页脚显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/twitter 
       link: https://twitter.com/wcowin_
@@ -64,8 +72,8 @@ extra:
     - icon: fontawesome/brands/bilibili
       link: https://space.bilibili.com/1407028951?spm_id_from=333.1007.0.0
     - icon: fontawesome/solid/paper-plane
-      link: mailto:<1135801806@qq.com> #联系
-
+      link: mailto:<1135801806@qq.com> #联系方式
+#cookie 
   analytics: 
     feedback:
       title: Was this page helpful?
@@ -84,12 +92,13 @@ extra:
   consent:
     title: Cookie consent
     description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better
+      我们也使用cookies来识别您的重复访问和偏好来衡量我们文档的有效性以及用户是否找到他们要找的东西。
+      如果你同意,你可以帮助我们让我们的网站更好 ,
+      比如：
+      王科文是帅哥～
+    #描述
       
 plugins:
   - search
   - tags:
-      tags_file: tags.md
+      tags_file: tags.md  #标签
