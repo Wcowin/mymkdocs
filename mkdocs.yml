@@ -44,12 +44,16 @@ theme:
 nav: 
   - 主页: index.md
   - 博客:
-    - Python: blog/index.md
+    - Python:
+      - 将Python文件.py打包成.exe可执行程序: blog/py/python.md
     - C语言: blog/c.md
+  - 开发: 
+    - Markdown: develop/markdown.md
   - 旅行: 
     - 重庆: trip/travel.md
   - 关于:
     - 个人履历: about/geren.md
+    - 网站制作: about/web.md
   
 markdown_extensions:
   - pymdownx.critic
@@ -58,10 +62,17 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - attr_list
+  - pymdownx.betterem
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg  #表情
   - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 plugins:
   - glightbox
   
@@ -110,3 +121,6 @@ plugins:
   - search
   - tags:
       tags_file: tags.md  #标签
+      
+extra_javascript:
+  - javascripts/extra.js
