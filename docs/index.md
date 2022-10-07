@@ -4,4 +4,3 @@
 
 ![img](img/my.jpeg "wow")
 
-* 找到我 &#x1F4A1;→[GitHub](https://github.com/Wcowin"GitHub")

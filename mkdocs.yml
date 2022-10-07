@@ -1,15 +1,15 @@
 site_name: Wcowin的个人网站
 site_url: https://wcowin.github.io/mymkdocs/
+site_author: 王科文
 theme:
   name: material
   icon:
     tag:
       <identifier>: octicons/tag-16
   features:
-    - navigation.instant
-    #- header.autohide  #自动隐藏
+    - navigation.instant #- header.autohide  #自动隐藏
     - announce.dismiss #忘了
-    - navigation.tracking #也忘了
+    - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
     - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
     - navigation.tabs.sticky
     - navigation.sections
@@ -47,6 +47,8 @@ nav:
     - Python:
       - 将Python文件.py打包成.exe可执行程序: blog/py/python.md
     - C语言: blog/c.md
+    - What is Github: blog/Github.md
+    - 科学上网: blog/kexue.md
   - 开发: 
     - Markdown: develop/markdown.md
   - 旅行: 
@@ -81,7 +83,7 @@ copyright: Copyright &copy; 2022王科文 # 左下角的版权声明
 
 extra:
   version:
-    provider: 1.0
+    provider: stable
   generator: false  #删除页脚显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/twitter 
@@ -119,8 +121,8 @@ extra:
       
 plugins:
   - search
-  - tags:
-      tags_file: tags.md  #标签
+  - tags  #标签
+  - glightbox
 
 markdown_extensions:
   - pymdownx.arithmatex: # latex支持
@@ -130,6 +132,10 @@ markdown_extensions:
   - pymdownx.highlight: # 代码块高亮
       # linenums: true # 显示行号
       # auto_title: true # 显示编程语言名称
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.superfences # 代码块高亮插件
   - meta # 支持Markdown文件上方自定义标题标签等
       

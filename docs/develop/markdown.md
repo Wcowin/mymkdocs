@@ -390,3 +390,4 @@ Markdown为以下字符提供反斜杠转义(但是CSDN不太支持)：
 * 【3】 &emsp; 全角的空格
 
 ---
+<p>同时推荐这个网站去学习基础markdown语法：<a href="http://www.runoob.com/">runoob.com</a></p>
