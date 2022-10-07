@@ -122,7 +122,6 @@ extra:
 plugins:
   - search
   - tags  #标签
-  - glightbox
 
 markdown_extensions:
   - pymdownx.arithmatex: # latex支持
