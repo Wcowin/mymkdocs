@@ -3,6 +3,8 @@ site_url: https://wcowin.github.io/mymkdocs/
 site_author: 王科文
 theme:
   name: material
+  palette:
+    primary: blue grey
   icon:
     tag:
       <identifier>: octicons/tag-16
