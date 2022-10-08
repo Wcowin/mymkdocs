@@ -12,12 +12,12 @@ theme:
     tag:
       <identifier>: octicons/tag-16
   features: 
-    #- navigation.instant #- header.autohide  #自动隐藏
+    - navigation.instant #- header.autohide  #自动隐藏
     #- announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
     - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
     - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
-   # - navigation.tabs.sticky
-   # - navigation.sections
+    - navigation.tabs.sticky
+    - navigation.sections
     - navigation.top # 返回顶部的按钮 在上滑时出现
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
     - search.highlight # 搜索出的文章关键词加入高亮
@@ -134,9 +134,6 @@ extra:
 plugins:
   - search
   - tags  #标签
-  - git-revision-date-localized:
-      enable_creation_date: true
-
 markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
