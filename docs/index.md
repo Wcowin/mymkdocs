@@ -2,5 +2,5 @@
 
 <center><font face="宋体" color=orange size=8 >永远相信美好的事情即将发生</font></center>
 
-![img](img/12.jpg "screen")
+![img](https://github.com/Wcowin/mymkdocs/blob/main/docs/img/12.jpg?raw=true"screen")
 
