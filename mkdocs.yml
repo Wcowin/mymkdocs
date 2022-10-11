@@ -47,9 +47,7 @@ repo_name: Wcowin.github.io # 右上角的名字
 
 # [Navigtion]
 nav: 
-  #- 主页: index.md
   - 博客:
-    #- blog/index.md
     - Python:
         - 将Python文件.py打包成.exe可执行程序: blog/py/python.md
         - pip: blog/py/pip.md
@@ -62,7 +60,6 @@ nav:
   - 开发: 
     - Markdown: develop/markdown.md
   - 旅行: 
-    #- trip/index.md
     - 重庆: trip/travel.md
   - 休闲:
     - relax/index.md
