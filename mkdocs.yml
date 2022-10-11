@@ -78,8 +78,6 @@ copyright: Copyright &copy; 2022王科文 # 左下角的版权声明
   
 
 extra: 
-  version:
-    provider: 2.0
   generator: false  #删除页脚显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/twitter 
