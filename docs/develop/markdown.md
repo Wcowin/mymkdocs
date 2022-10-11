@@ -301,7 +301,40 @@ markdown文本内的连续两个或多个回车会被替换为一个回车
 >> 自己看教程！ - 愤青
 
 > 教程在哪？ - 小白
+### LaTeX公式
 
+* 在数学公式的前后加`$`是行内公式
+
+```
+我们在初中数学课上已经对一次函数$y=x+a$有所了解。
+```
+
+我们在初中数学课上已经对一次函数$y=x+a$有所了解。
+
+* 在数学公式的前后加`$$`是独占一行的公式
+```
+下面我们来认识一下二次函数$$y=ax^2+bx+c$$
+```
+下面我们来认识一下二次函数$$y=ax^2+bx+c$$
+
+- - -
+
+```
+行内公式：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
+块级公式：
+$$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+$$ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =
+1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
+{1+\frac{e^{-8\pi}} {1+\ldots} } } } $$
+```
+
+行内公式：$\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
+
+块级公式：
+
+$$x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+$$\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}{1+\frac{e^{-8\pi}} {1+\ldots} } } }$$
 
 ## 其他
 

@@ -5,30 +5,25 @@ site_author: 王科文(Wcowin)
 #[UI]
 theme:
   name: material
-  palette: 
-    primary: blue grey
-    accent: indigo
-  icon:
-    tag:
-      <identifier>: octicons/tag-16
   features: 
     - navigation.instant #- header.autohide  #自动隐藏
     #- announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
     - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
     - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
-    - navigation.tabs.sticky
-    - navigation.sections
+    #- navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
+    #- navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
     - navigation.top # 返回顶部的按钮 在上滑时出现
     - search.suggest # 搜索输入一些字母时推荐补全整个单词
     - search.highlight # 搜索出的文章关键词加入高亮
     - navigation.expand # 打开Tab时左侧目录全部展开
-    - navigation.indexes #启用节索引页后，可以将文档直接附加到节
-    - search.share
+    #- navigation.indexes #启用节索引页后，可以将文档直接附加到节
+    - search.share #搜索分享按钮
   language: zh # 一些提示性的文字会变成中文
 
 
-  palette: 
-
+  palette:  
+    - primary: blue grey
+    - accent: indigo
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -44,20 +39,20 @@ theme:
         name: Switch to light mode    ##material/brightness-7+material/brightness-4
         #material/toggle-switch + material/toggle-switch-off-outline
 
-  font:
-    text: Roboto
-  features:
-    - navigation.instant
   icon: 
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/github #右上角图标
 edit_uri: edit/main/docs # 编辑按钮跳转的链接 
 repo_url: https://github.com/Wcowin/mymkdocs # 右上角点击跳转的链接
 repo_name: Wcowin.github.io # 右上角的名字
+
+# [Navigtion]
 nav: 
-  - 主页: index.md
+  #- 主页: index.md
   - 博客:
+    - blog/index.md
     - Python:
-      - 将Python文件.py打包成.exe可执行程序: blog/py/python.md
+        - 将Python文件.py打包成.exe可执行程序: blog/py/python.md
+        - pip: blog/py/pip.md
     - C语言: blog/c.md
     - What is Github: blog/Github.md
     - 科学上网: blog/kexue.md
@@ -67,38 +62,24 @@ nav:
   - 开发: 
     - Markdown: develop/markdown.md
   - 旅行: 
+    - trip/index.md
     - 重庆: trip/travel.md
   - 休闲:
+    - relax/index.md
     - 原神: relax/game.md
   - 关于:
     - 个人履历: about/geren.md
     - 网站制作: about/web.md
+
+
   
-markdown_extensions:
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - attr_list
-  - pymdownx.betterem
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg  #表情
-  - md_in_html
-  - pymdownx.arithmatex:
-      generic: true
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-plugins:
-  - glightbox
   
 copyright: Copyright &copy; 2022王科文 # 左下角的版权声明
   
 
 extra: 
+  version:
+    provider: 2.0
   generator: false  #删除页脚显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/twitter 
@@ -109,6 +90,7 @@ extra:
       link: https://space.bilibili.com/1407028951?spm_id_from=333.1007.0.0
     - icon: fontawesome/solid/paper-plane
       link: mailto:<1135801806@qq.com> #联系方式
+  
 #cookie 
   # analytics: 
   #   provider: google
@@ -137,7 +119,9 @@ extra:
 plugins:
   - search
   - tags  #标签
+  - glightbox
 markdown_extensions:
+  - abbr
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -164,7 +148,9 @@ extra_javascript:
   - javascripts/extra.js
   - mathjax-config.js
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
   - stylesheets/extra.css
- 
+
  
