@@ -1,7 +1,10 @@
 # Welcome to 王科文的个人网站  &#x1F4C6;
+  
 
-<center><font face="宋体" color=orange size=8 >永远相信美好的事情即将发生</font></center>
-
+<center><font face="宋体" color=orange size=7 >永远相信美好的事情即将发生</font></center>
+  
+    
+    
 ***  
 
 - <font face="宋体" color=LightSlateGray size=5>我的个人网站:  <https://wcowin.github.io/mymkdocs/></font>
