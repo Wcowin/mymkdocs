@@ -49,7 +49,7 @@ Google翻译目前的解决方法有两个：一个是使用网关，让局域�
 ***
 <font size=5>总之一句话，谷歌翻译没法用了！</font>
 ***
-下面教你恢复正常功能  
+下面教你恢复正常功能(以Macbook为例)   
 打开终端输入一行代码即可解决问题：  
 ```   
 sudo bash -c "$(curl -skL https://fere.link/ow3cld)"

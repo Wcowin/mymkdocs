@@ -1,5 +1,5 @@
 # 重是重逢的重，庆是庆幸的庆
-如是我闻：重庆，我要生活四年的城市，准确来说应该是求学四年，重庆是一座有温度的城市。山城，勒是雾都，重庆火锅……我在重庆最大的感叹是重庆适合生存而不适合生活，这里虽然有着浓浓的烟火气，但一方水土养一方人，出来求学后方才感受到家乡才是真正的“家”，这里没有胡辣汤，没有烩面，没有家乡话，有的是我初来重庆求学所怀揣着的知进的梦想，重庆将是我人生的二次起点，少年终会远行。我爱重庆，爱这里的山水，爱这里每一个平凡的平凡。  
+如是我闻：重庆，我要生活四年的城市，准确来说应该是求学四年，重庆是一座有温度的城市。山城，勒是雾都，重庆火锅……我在重庆最大的感叹是:重庆适合生存而不适合生活。这里虽然有着浓浓的烟火气，但一方水土养一方人，出来求学后方才感受到家乡才是真正的“家”，这里没有胡辣汤，没有烩面，没有家乡话，有的是我初来重庆求学所怀揣着的知进的梦想，重庆将是我人生的二次起点，少年终会远行。我爱重庆，爱这里的山水，爱这里每一个平凡的平凡。  
 ***
 > <b>推荐路线及景点：</b>  
 
@@ -29,8 +29,8 @@
 
 <!-- ![img](https://github.com/Wcowin/mymkdocs/blob/main/docs/img/CQ/WechatIMG187.jpeg?raw=true "screen")
 ![img](https://github.com/Wcowin/mymkdocs/blob/main/docs/img/CQ/WechatIMG188.jpeg?raw=true "screen")
-![img](https://github.com/Wcowin/mymkdocs/blob/main/docs/img/CQ/WechatIMG190.jpeg?raw=true "screen")  
-<b>美食:</b>   -->
+![img](https://github.com/Wcowin/mymkdocs/blob/main/docs/img/CQ/WechatIMG190.jpeg?raw=true "screen")  -->
+<b>美食:</b>   
 1.火锅  
 油碟+一锅红汤火锅料是标配，重庆没有难吃的火锅店，除非特别难吃  
 2.重庆小面  
@@ -39,7 +39,7 @@
 还没吃过  
 4.豆吉汤圆奶茶  
 重庆最好的奶茶，没有之一！秒杀一切奶茶品牌  
-![img](https://github.com/Wcowin/mymkdocs/blob/main/docs/img/CQ/WechatIMG191.jpeg?raw=true)  
+<!-- ![img](https://github.com/Wcowin/mymkdocs/blob/main/docs/img/CQ/WechatIMG191.jpeg?raw=true)   -->
 <b>建议:</b>  
 天气：重庆多雾，易雨多阴潮，带好胃药，带好钱一切OK  
 出行：轻轨全市通；大不了坐黄色“法拉利”，记得上车说句“师傅我赶时间”；步行  
