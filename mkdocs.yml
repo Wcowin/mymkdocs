@@ -5,6 +5,21 @@ site_author: 王科文(Wcowin)
 #[UI]
 theme:
   name: material
+  palette:
+    #primary: blue grey
+  
+    - scheme: default # 日间模式
+      primary: blue grey # 上方的
+      accent: orange # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
+      primary: blue grey 
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至日间模式
   features: 
     - navigation.instant #- header.autohide  #自动隐藏
     #- announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
@@ -19,25 +34,7 @@ theme:
     #- navigation.indexes #启用节索引页后，可以将文档直接附加到节
     - search.share #搜索分享按钮
   language: zh # 一些提示性的文字会变成中文
-
-
-  palette:  
-    - primary: blue grey
-    - accent: indigo
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode    ##material/brightness-7+material/brightness-4
-        #material/toggle-switch + material/toggle-switch-off-outline
+  
 
   icon: 
     repo: fontawesome/brands/github #右上角图标
