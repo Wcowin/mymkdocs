@@ -1,6 +1,7 @@
 # Publish a Website with Material for MkDocs and GitHub Pages  
 
-For example:[Mkdocs静态网站制作](https://squidfunk.github.io/mkdocs-material/)  
+For example:[Mkdocs静态网站制作](https://squidfunk.github.io/mkdocs-material/)   
+详细文档：[MkDocs](https://www.mkdocs.org/getting-started/) 
 
 创建一个文件
 ```
