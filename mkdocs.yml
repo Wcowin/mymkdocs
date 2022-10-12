@@ -10,13 +10,13 @@ theme:
   
     - scheme: default # 日间模式
       primary: blue grey # 上方的
-      accent: orange # 链接等可交互元件的高亮色
+      accent: cyan # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
       primary: blue grey 
-      accent: orange
+      accent: cyan
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
@@ -135,9 +135,7 @@ markdown_extensions:
   - meta # 支持Markdown文件上方自定义标题标签等
      
 extra_javascript:
-  - javascripts/extra.js
-  - mathjax-config.js
-  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 extra_css:
