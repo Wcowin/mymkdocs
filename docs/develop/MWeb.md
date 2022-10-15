@@ -175,10 +175,10 @@ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 
 行内公式： ``\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N``
 
-注意：为了兼容 MWeb 3，也支持 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ 
+<!-- 注意：为了兼容 MWeb 3，也支持 $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ 
 和块级语法
 $$	x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
-但是建议用新的语法。
+但是建议用新的语法。 -->
 
 ## MWeb 画图
 

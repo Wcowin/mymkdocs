@@ -45,17 +45,17 @@ repo_name: Wcowin.github.io # 右上角的名字
 # [Navigtion]
 nav: 
   - 博客:
+    - 好用/好玩网站分享: blog/Webplay.md
+    - What is Github: blog/Github.md
+    - 解决谷歌翻译用不了的问题: blog/googletranslate.md
+    - Mac/windows软件网站汇总: blog/macsoft.md
+    - win11资源分享: blog/win.md
+    - Telegram 群组、频道、机器人 - 汇总分享: blog/TG.md
     - Python:
         - 将Python文件.py打包成.exe可执行程序: blog/py/python.md
         - pip: blog/py/pip.md
     - C语言: blog/c.md
-    - What is Github: blog/Github.md
     - 科学上网: blog/kexue.md
-    - 解决谷歌翻译用不了的问题: blog/googletranslate.md
-    - Mac/windows软件网站汇总: blog/macsoft.md
-    - win11资源分享: blog/win.md
-    - 好用/好玩网站分享: blog/Webplay.md
-    - Telegram 群组、频道、机器人 - 汇总分享: blog/TG.md
   - 开发: 
     - Markdown: develop/markdown.md
     - MWeb Pro: develop/MWeb.md
@@ -67,7 +67,7 @@ nav:
       - 望江南·超然台作: relax/shiwen/sjcnh.md
       - 击鼓: relax/shiwen/jg.md
   - 旅行: 
-    #- 家乡: trip/LH.md
+    - 家乡: trip/LH.md
     - 重庆: trip/travel.md
   - 关于:
     - 个人履历: about/geren.md
