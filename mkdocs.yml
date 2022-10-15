@@ -9,13 +9,13 @@ theme:
     #primary: blue grey
   
     - scheme: default # 日间模式
-      primary: blue grey # 上方的
+      primary: grey # 上方的
       accent: cyan # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
     - scheme: slate # 夜间模式
-      primary: blue grey 
+      primary: black 
       accent: cyan
       toggle:
         icon: material/weather-sunny
@@ -58,6 +58,7 @@ nav:
     - Telegram 群组、频道、机器人 - 汇总分享: blog/TG.md
   - 开发: 
     - Markdown: develop/markdown.md
+    - MWeb Pro: develop/MWeb.md
     - 大厂们的良心软件～: develop/fenxiang.md
   - 闲话:
     - 原神: relax/game.md
@@ -143,6 +144,7 @@ markdown_extensions:
   - meta # 支持Markdown文件上方自定义标题标签等
      
 extra_javascript:
+  - javascripts/extra.js
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
