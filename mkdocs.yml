@@ -60,12 +60,14 @@ nav:
     - Markdown: develop/markdown.md
     - MWeb Pro: develop/MWeb.md
     - 大厂们的良心软件～: develop/fenxiang.md
+    - Mac个人体验: develop/Mac.md
   - 闲话:
     - 原神: relax/game.md
     - 诗文:
       - 滕王阁序: relax/shiwen/twgx.md
       - 望江南·超然台作: relax/shiwen/sjcnh.md
       - 击鼓: relax/shiwen/jg.md
+      - 雨霖铃·秋别: relax/shiwen/yll.md
   - 旅行: 
     - 家乡: trip/LH.md
     - 重庆: trip/travel.md
