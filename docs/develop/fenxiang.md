@@ -16,7 +16,7 @@
 [阿里矢量图标库](https://www.iconfont.cn/)（海量矢量图标免费下载)  
 [夸克网盘](https://pan.quark.cn/?chkey=undefined)（网盘美观好用）
 
-百度：
+百度：  
 [飞桨 AI Studio](https://aistudio.baidu.com/aistudio/index)（免费AI、图形相关的GPU算力，量大管饱)  
 [图说](https://tushuo.baidu.com/)（图表编辑器)
 
